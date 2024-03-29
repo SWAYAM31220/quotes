@@ -2,7 +2,7 @@ const quoteButton = document.getElementById('generate-button');
 const quoteText = document.getElementById('quote');
 const authorName = document.getElementById('author-name');
 
-const baseUrl = 'https://quotes-by-api-ninjas.p.rapidapi.com';
+const baseUrl = 'https://quotes-by-api-ninjas.p.rapidapi.com/v1/quotes';
 const apiKey = 'e25a485053msh8bcfd469f10ffd3p1459e2jsn48e6af5a613d'; // Replace with your actual API key
 
 function generateQuote() {
